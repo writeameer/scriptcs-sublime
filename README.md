@@ -4,9 +4,22 @@ scriptcs-sublime
 Sublime Text plug-in for scriptcs.
 
 ## Installation
-The easiest way to install scriptcs-sublime is via the Package Control Plugin, once the package has been approved and made available.
+The easiest way to install scriptcs-sublime is via the Package Control Plugin, once the package has been approved and made available. In the mean time you can install it manually using git. Simply go to your packages directory and clone this repository.
 
-In the mean time you can install it manually using git. Simply go to your packages directory and type: ``git clone https://github.com/scriptcs/scriptcs-sublime.git``.
+### Packages Directory (Windows)
+
+On windows, to go to your packages directory, type:
+
+Powershell: ``cd "$env:APPDATA\Sublime Text 2\Packages"``
+
+OR
+
+DOS: ``cd "%APPDATA%\Sublime Text 2\Packages"``
+
+
+#### Cloning Repository
+
+Type: ``git clone https://github.com/scriptcs/scriptcs-sublime.git``. 
 
 To update to the latest version, use this command in the ``scriptcs-sublime`` directory: ``git pull origin master``.
 
